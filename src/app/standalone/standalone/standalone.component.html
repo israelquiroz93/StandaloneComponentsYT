@@ -1,0 +1,6 @@
+<mat-selection-list #hero [multiple]="false">
+    <mat-list-option *ngFor="let hero of HEROES" [value]="hero">
+        {{hero.name}}
+    </mat-list-option>
+</mat-selection-list>
+<button mat-raised-button color="primary">Primary</button>
